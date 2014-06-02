@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<coches>
+	<coche id="1">
+		<marca>Ford</marca>
+		<modelo>Fiesta</modelo>
+		<matricula>1234</matricula>	
+		<anio>2010</anio>	
+		<duenio>
+			<dni>123</dni>
+			<nombre>Juan</nombre>
+			<apellido>Pérez</apellido>
+		</duenio>
+		<accesorios>
+			<accesorio>
+				<nombre>Radio</nombre>
+				<tipo>USB</tipo>
+			</accesorio>
+			<accesorio>
+				<nombre>Climatizador</nombre>
+				<modelo>3457T</modelo>
+			</accesorio>
+		</accesorios>
+	</coche>
+	<coche id="2">
+		<marca>Ford</marca>
+		<modelo>Focus</modelo>
+		<matricula>5678</matricula>	
+		<anio>2009</anio>	
+		<duenio>
+			<dni>456</dni>
+			<nombre>María</nombre>
+			<apellido>García</apellido>
+		</duenio>
+		<accesorios>
+			<accesorio>
+				<nombre>Radio</nombre>
+				<tipo>CD</tipo>
+			</accesorio>
+		</accesorios>
+	</coche>
+	<coche id="3">
+		<marca>Seat</marca>
+		<modelo>Leon</modelo>
+		<matricula>98765</matricula>	
+		<anio>2002</anio>	
+		<duenio>
+			<dni>456</dni>
+			<nombre>María</nombre>
+			<apellido>García</apellido>
+		</duenio>
+		<accesorios>
+			<accesorio>
+				<nombre>Radio</nombre>
+				<tipo>DVD</tipo>
+			</accesorio>
+			<accesorio>
+				<nombre>Bluetooth</nombre>
+			</accesorio>
+		</accesorios>
+	</coche>
+</coches>
