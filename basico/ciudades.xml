@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ciudades [
+	<!ELEMENT ciudades (ciudad+)>
+	<!ELEMENT ciudad (nombre, pais, continente, poblacion, transportes?)>
+	<!ATTLIST ciudad id NMTOKEN #REQUIRED>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT pais (#PCDATA)>
+	<!ELEMENT continente (#PCDATA)>
+	<!ELEMENT poblacion (#PCDATA)>
+
+	<!ELEMENT transportes (transporte+)>
+	<!ELEMENT transporte (#PCDATA)>
+	<!ATTLIST transporte tipo CDATA #REQUIRED>
+]>
 <ciudades>
 	<ciudad id="1">
 		<nombre>Madrid</nombre>
@@ -25,6 +38,10 @@
 		<pais>Argentina</pais>
 		<continente>América</continente>
 		<poblacion>10000</poblacion>
+		<transportes>
+			<transporte tipo="Metro">Subte</transporte>
+			<transporte tipo="Bus">Buses de Baires</transporte>
+		</transportes>
 	</ciudad>
 </ciudades>
 

@@ -1,0 +1,12 @@
+Agenda
+======
+
+- Fundamentos
+- Validadores
+	- DTD
+	- XML Schema
+- XSLT -> Web
+- Parsers
+	- Árboles -> DOM (JDom, JAXP)
+	- Flujos (Push: SAX, Pull: StAX)
+	- JAXB

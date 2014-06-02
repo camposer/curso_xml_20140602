@@ -1,0 +1,74 @@
+Tutoriales
+==========
+
+Tutorial de XML de W3Schools
+http://www.w3schools.com/xml/
+
+Tutorial de XSD de W3Schools
+http://www.w3schools.com/Schema/
+
+Tutorial de XSL de W3Schools
+http://www.w3schools.com/xsl/
+
+Tutorial de StAX de Oracle
+http://docs.oracle.com/javase/tutorial/jaxp/stax/example.html
+
+Tutorial de JAXB
+https://jaxb.java.net/tutorial/
+
+Guía de XMLTools de Eclipse
+http://www.eclipse.org/webtools/initial-contribution/IBM/evalGuides/XMLToolsEval.html
+
+Herramientas
+============
+
+Validador XML (DTD) de w3c
+http://validator.w3.org/check
+
+Validador XML (XSD) 
+http://www.utilities-online.info/xsdvalidation/
+
+
+Ejemplos
+========
+
+XSLT con Java
+http://docs.oracle.com/javase/tutorial/jaxp/xslt/transformingXML.html
+
+XSLT y PDF utilizando XSL-FO
+http://www.ibm.com/developerworks/library/x-xslfo2app/
+http://www.ibm.com/developerworks/xml/library/x-xslfo/index.html
+http://www.w3schools.com/xslfo/
+
+Ejemplo de SAX
+http://www.mkyong.com/java/how-to-read-xml-file-in-java-sax-parser/
+
+Ejemplo de DOM
+(lectura) http://www.mkyong.com/java/how-to-read-xml-file-in-java-dom-parser
+(escritura) http://www.shivasoft.in/blog/java/create-xml-file-using-jaxp-and-transformation-apis/
+
+Tutotial de JAXB
+http://www.vogella.com/tutorials/JAXB/article.html
+
+Ejemplo de StAX
+http://www.journaldev.com/1226/java-stax-cursor-based-api-read-xml-example
+
+Ejemplo de Validación con XSD y SAX
+http://tutorials.jenkov.com/java-xml/sax-schema-validation.html
+
+
+Documentación
+=============
+
+API Java DOM:
+http://docs.oracle.com/javase/7/docs/api/org/w3c/dom/package-summary.html
+
+API Java SAX:
+http://docs.oracle.com/javase/7/docs/api/org/xml/sax/package-summary.html
+
+API Java StAX:
+http://docs.oracle.com/javaee/5/api/javax/xml/stream/package-summary.html
+
+
+
+
