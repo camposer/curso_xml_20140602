@@ -1,0 +1,2 @@
+1. Hacer el DTD del archivo ordenadores.xml. Validarlo con la herramienta de la W3C
+2. Hacer el XSD del archivo ordenadores.xml
