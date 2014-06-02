@@ -19,6 +19,7 @@
 ]>
 <coches>
 	<coche id="1">
+		<marca>Ford</marca>
 		<modelo>Fiesta</modelo>
 		<matricula>1234</matricula>	
 		<anio>2010</anio>	
