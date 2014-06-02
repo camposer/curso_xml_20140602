@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ordenadores [
+	<!ELEMENT ordenadores (ordenador*)>
+	<!ELEMENT ordenador (nombre, serial, persona?)>
+	<!ATTLIST ordenador id NMTOKEN #REQUIRED>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT serial (#PCDATA)>
+	<!ELEMENT persona (nombre, apellido, fechaNacimiento, altura)>
+	<!ATTLIST persona id NMTOKEN #REQUIRED>
+	<!ELEMENT apellido (#PCDATA)>
+	<!ELEMENT fechaNacimiento (#PCDATA)>
+	<!ELEMENT altura (#PCDATA)>
+]>
 <ordenadores>
 	<ordenador id="1">
 		<nombre>uno</nombre>
