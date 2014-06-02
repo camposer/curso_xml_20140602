@@ -10,7 +10,7 @@
 
 	<!ELEMENT transportes (transporte+)>
 	<!ELEMENT transporte (#PCDATA)>
-	<!ATTLIST transporte tipo CDATA #REQUIRED>
+	<!ATTLIST transporte tipo (Metro|Bus|Acuático) #REQUIRED>
 ]>
 <ciudades>
 	<ciudad id="1">
