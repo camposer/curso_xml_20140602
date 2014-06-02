@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ciudades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ciudades.xsd">
+	<ciudad id="1">
+		<nombre>Madrid</nombre>
+		<pais>España</pais>
+		<continente>Europa</continente>
+		<poblacion>4000</poblacion>
+		<transportes>
+			<transporte tipo="Metro">Metro de Madrid</transporte>
+			<transporte tipo="Bus">Buses de Madrid</transporte>
+		</transportes>
+	</ciudad>
+	<ciudad id="2">
+		<nombre>Venecia</nombre>
+		<pais>Italia</pais>
+		<continente>Europa</continente>
+		<poblacion>1000</poblacion>
+		<transportes>
+			<transporte tipo="Acuático">Vaporetto</transporte>
+			<transporte tipo="Bus">Buses de Venecia</transporte>
+		</transportes>
+	</ciudad>
+	<ciudad id="3">
+		<nombre>Buenos Aires</nombre>
+		<pais>Argentina</pais>
+		<continente>América</continente>
+		<poblacion>10000</poblacion>
+		<transportes>
+			<transporte tipo="Metro">Subte</transporte>
+			<transporte tipo="Bus">Buses de Baires</transporte>
+		</transportes>
+	</ciudad>
+</ciudades>
+

@@ -28,6 +28,8 @@ http://validator.w3.org/check
 Validador XML (XSD) 
 http://www.utilities-online.info/xsdvalidation/
 
+Parsers XML (validadores, etc)
+http://xerces.apache.org/
 
 Ejemplos
 ========
