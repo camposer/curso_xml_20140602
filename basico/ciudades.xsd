@@ -4,35 +4,55 @@
 	<xs:element name="ciudades">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="ciudad" type="ciudadtipo" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="ciudad" type="ciudadTipo" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 
-	<xs:complexType name="ciudadtipo">
+	<xs:complexType name="ciudadTipo">
 		<xs:sequence>
 			<xs:element name="nombre" type="xs:string"/>
 			<xs:element name="pais" type="xs:string"/>
-			<xs:element name="continente" type="xs:string"/>
+			<xs:element name="continente" type="continenteTipo"/>
 			<xs:element name="poblacion" type="xs:decimal"/>
-			<xs:element name="transportes" type="transportetipo" minOccurs="0"/>
+			<xs:element name="transportes" type="transporteTipo" minOccurs="0"/>
 		</xs:sequence>
 		<xs:attribute name="id" type="xs:integer" use="required"/>
 	</xs:complexType>
 
-	<xs:complexType name="transportetipo">
+	<xs:complexType name="transporteTipo">
 		<xs:sequence>
 			<xs:element name="transporte" maxOccurs="unbounded">
 				<xs:complexType>
 					<xs:simpleContent>
-						<xs:extension base="xs:string">
-							<xs:attribute name="tipo" type="xs:string" /><!-- Incluir subtipos -->
+						<xs:extension base="xs:string"><!-- Definición del contenido -->
+							<xs:attribute name="tipo" type="transporteTipoTipo" /><!-- Definición del atributo -->
 						</xs:extension>
 					</xs:simpleContent>
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
+
+	<xs:simpleType name="continenteTipo">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Africa"/>
+			<xs:enumeration value="América"/>
+			<xs:enumeration value="Asia"/>
+			<xs:enumeration value="Europa"/>
+			<xs:enumeration value="Oceanía"/>
+		</xs:restriction>
+	</xs:simpleType> 
+
+	<xs:simpleType name="transporteTipoTipo">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(Bus|Acu[áa]tico|Tranv[íi]a|Metro)"/>
+		</xs:restriction>
+	</xs:simpleType>
 </xs:schema> 
+
+
+
+
 
 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="coches">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="coche" type="cocheType" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="cocheType">
+		<xs:sequence>
+			<xs:element name="marca" type="cocheMarcaType"/>
+			<xs:element name="modelo" type="xs:string"/>
+			<xs:element name="matricula" type="cocheMatriculaType"/>
+			<xs:element name="anio" type="xs:integer"/>
+			<xs:element name="duenio" type="duenioType"/>
+			<xs:element name="accesorios" type="accesoriosType"/>
+		</xs:sequence>		
+		<xs:attribute name="id" type="xs:int" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="duenioType">
+		<xs:sequence>
+			<xs:element name="dni" type="xs:string"/>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="apellido" type="xs:string"/>
+		</xs:sequence>		
+	</xs:complexType>
+
+	<xs:complexType name="accesoriosType">
+		<xs:sequence>
+			<xs:element name="accesorio" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="nombre" type="xs:string"/>
+						<xs:element name="tipo" type="xs:string" minOccurs="0"/>
+						<xs:element name="modelo" type="xs:string" minOccurs="0"/>
+					</xs:sequence>		
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="cocheMarcaType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Ford"/>
+			<xs:enumeration value="Seat"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="cocheMatriculaType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{3,}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>
