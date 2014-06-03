@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ordenadores">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ordenador" minOccurs="0" maxOccurs="unbounded" type="ordenadorType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="ordenadorType">
+		<xs:all>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="serial" type="serialType"/>
+			<xs:element name="persona" type="personaType" minOccurs="0"/>
+		</xs:all>
+		<xs:attribute name="id" type="xs:integer" use="required"/>
+	</xs:complexType>
+
+	<xs:simpleType name="serialType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{3,}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="personaType">
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="apellido" type="xs:string"/>
+			<xs:element name="fechaNacimiento" type="xs:date"/>
+			<xs:element name="altura" type="xs:decimal"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:integer" use="required"/>
+	</xs:complexType>
+
+</xs:schema> 
+
+
+
