@@ -1,0 +1,1 @@
+Implementar una XSL para ordenadores.xml (utilizado en el ejercicio1). La salida debe ser parecida a la mostrada en el ejemplo básico (coches-all.xml y coches.xsl)
