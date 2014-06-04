@@ -1,0 +1,17 @@
+Implementar un parser SAX que lea un documento XML como el mostrado abajo:
+
+<persona id="1">
+	<nombre>Juan</nombre>
+	<apellido>Pérez</apellido>
+	<fechaNacimiento>1980-01-03</fechaNacimiento>
+	<altura>180</altura>		
+</persona>
+
+Tips:
+
+class Ejercicio5 {
+
+	main() {
+		Persona persona = PersonaBinder.leer("xml/persona.xml"); // Lee el documento XML
+	}
+}
