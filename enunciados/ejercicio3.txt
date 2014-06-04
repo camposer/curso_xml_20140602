@@ -1,0 +1,1 @@
+Implementar un parser DOM que lea el documento ordenadores.xml (ejercicio2) y devuelva los objetos correspondientes (ver LectorBinding)
