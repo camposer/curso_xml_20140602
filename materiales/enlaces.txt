@@ -10,6 +10,9 @@ http://www.w3schools.com/Schema/
 Tutorial de XSL de W3Schools
 http://www.w3schools.com/xsl/
 
+Tutorial de DOM de Oracle
+http://docs.oracle.com/javase/tutorial/jaxp/dom/
+
 Tutorial de StAX de Oracle
 http://docs.oracle.com/javase/tutorial/jaxp/stax/example.html
 

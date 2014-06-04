@@ -1,0 +1,8 @@
+Implementar un parser DOM que escriba un documento XML como el mostrado abajo:
+<persona id="1">
+	<nombre>Juan</nombre>
+	<apellido>Pérez</apellido>
+	<fechaNacimiento>1980-01-03</fechaNacimiento>
+	<altura>180</altura>		
+</persona>
+
