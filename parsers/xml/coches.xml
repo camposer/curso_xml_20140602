@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches>
+	<coche id="1">
+		<matricula>1234BCD</matricula>
+		<marca>Seat</marca>
+		<personas>
+			<persona id="1">
+				<nombre>Juan</nombre>
+				<apellido>Pérez</apellido>
+				<fechaNacimiento>1980-01-03</fechaNacimiento>
+				<altura>180</altura>
+				<ordenadores>
+					<ordenador id="1">
+						<nombre>uno</nombre>
+						<serial>123</serial>
+					</ordenador>
+					<ordenador id="4">
+						<nombre>cuatro</nombre>
+						<serial>012</serial>
+					</ordenador>
+				</ordenadores>
+			</persona>
+			<persona id="2">
+				<nombre>María</nombre>
+				<apellido>González</apellido>
+				<fechaNacimiento>1970-04-20</fechaNacimiento>
+				<altura>160</altura>
+				<ordenadores>
+					<ordenador id="2">
+						<nombre>dos</nombre>
+						<serial>456</serial>
+					</ordenador>
+				</ordenadores>
+			</persona>
+		</personas>
+	</coche>
+	<coche id="2">
+		<matricula>5678FGH</matricula>
+		<marca>Ferrari</marca>
+		<personas>
+			<persona id="2">
+				<nombre>María</nombre>
+				<apellido>González</apellido>
+				<fechaNacimiento>1970-04-20</fechaNacimiento>
+				<altura>160</altura>
+				<ordenadores>
+					<ordenador id="2">
+						<nombre>dos</nombre>
+						<serial>456</serial>
+					</ordenador>
+				</ordenadores>
+			</persona>
+		</personas>
+	</coche>
+</coches>

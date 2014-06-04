@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ordenadores>
+	<ordenador id="1">
+		<nombre>uno</nombre>
+		<serial>123</serial>
+		<tipo>PORTATIL</tipo>
+		<persona id="1">
+			<nombre>Juan</nombre>
+			<apellido>Pérez</apellido>
+			<fechaNacimiento>30/01/1980</fechaNacimiento>
+			<altura>180</altura>		
+		</persona>
+	</ordenador>
+	<ordenador id="2">
+		<nombre>dos</nombre>
+		<serial>456</serial>
+		<tipo>ESTACION_TRABAJO</tipo>
+		<persona id="2">
+			<nombre>María</nombre>
+			<apellido>González</apellido>
+			<fechaNacimiento>20/04/2007</fechaNacimiento>
+			<altura>160</altura>
+		</persona>
+	</ordenador>
+	<ordenador id="3">
+		<nombre>tres</nombre>
+		<serial>789</serial>
+		<tipo>PORTATIL</tipo>		
+		<persona id="3">
+			<nombre>Pedro</nombre>
+			<apellido>García</apellido>
+			<fechaNacimiento>18/05/1970</fechaNacimiento>
+			<altura>170</altura>
+		</persona>
+	</ordenador>
+	<ordenador id="4">
+		<nombre>cuatro</nombre>
+		<serial>012</serial>
+		<tipo>SERVIDOR</tipo>		
+		<persona id="1">
+			<nombre>Juan</nombre>
+			<apellido>Pérez</apellido>
+			<fechaNacimiento>03/01/1980</fechaNacimiento>
+			<altura>180</altura>		
+		</persona>
+	</ordenador>
+</ordenadores>

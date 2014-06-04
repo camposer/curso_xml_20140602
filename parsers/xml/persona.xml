@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persona id="1">
+    <nombre>Juan</nombre>
+    <apellido>Pérez</apellido>
+    <fechaNacimiento>1980-01-03</fechaNacimiento>
+    <altura>180</altura>
+</persona>
