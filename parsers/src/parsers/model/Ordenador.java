@@ -4,6 +4,7 @@ public class Ordenador {
 	private Integer id;
 	private String nombre;
 	private String serial;
+	private String tipo;
 	private Persona persona;
 	
 	public Ordenador() {
@@ -50,9 +51,18 @@ public class Ordenador {
 		this.persona = persona;
 	}
 
+	
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
 	@Override
 	public String toString() {
 		return "Ordenador [id=" + id + ", nombre=" + nombre + ", serial="
-				+ serial + ", persona=" + persona + "]";
+				+ serial + ", tipo=" + tipo + ", persona=" + persona + "]";
 	}
 }
