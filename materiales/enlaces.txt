@@ -13,6 +13,9 @@ http://www.w3schools.com/xsl/
 Tutorial de DOM de Oracle
 http://docs.oracle.com/javase/tutorial/jaxp/dom/
 
+Tutorial de SAX de Oracle
+http://docs.oracle.com/javase/tutorial/jaxp/sax/parsing.html
+
 Tutorial de StAX de Oracle
 http://docs.oracle.com/javase/tutorial/jaxp/stax/example.html
 
