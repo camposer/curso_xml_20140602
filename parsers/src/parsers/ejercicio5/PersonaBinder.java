@@ -30,7 +30,7 @@ public class PersonaBinder {
 		return handler.getPersona();
 	}
 
-	public static class PersonaHandler extends DefaultHandler {
+	private static class PersonaHandler extends DefaultHandler {
 		private Persona persona;
 		private String elemento;
 

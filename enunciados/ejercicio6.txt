@@ -1,0 +1,30 @@
+1.- Implementar un parser StAX que lea un documento XML como el mostrado abajo:
+<persona id="1">
+	<nombre>Juan</nombre>
+	<apellido>Pérez</apellido>
+	<fechaNacimiento>1980-01-03</fechaNacimiento>
+	<altura>180</altura>		
+</persona>
+
+Tips:
+
+class Ejercicio6 {
+
+	main() {
+		Persona persona = PersonaBinder.leer("xml/persona.xml"); // Lee el documento XML
+	}
+}
+
+---
+
+2.- Implementar un parser StAX que lea el documento xml/staff.xml y retorno un objeto:
+
+Tip:
+
+class Ejercicio5 {
+
+	main() {
+		List<Staff> staffs = StaffBinder.getStaffing("xml/staff.xml"); // Lee el documento XML
+	}
+}
+

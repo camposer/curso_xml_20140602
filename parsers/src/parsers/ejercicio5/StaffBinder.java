@@ -31,7 +31,7 @@ public class StaffBinder {
 		return handler.getStaffing();
 	}
 
-	public static class StaffHandler extends DefaultHandler {
+	private static class StaffHandler extends DefaultHandler {
 		private List<Staff> staffing;
 		private Staff staff;
 		private String elemento;
