@@ -64,6 +64,8 @@ http://www.journaldev.com/1226/java-stax-cursor-based-api-read-xml-example
 Ejemplo de Validación con XSD y SAX
 http://tutorials.jenkov.com/java-xml/sax-schema-validation.html
 
+Ejemplo de Adaptadores XML
+http://stackoverflow.com/questions/13568543/how-do-you-specify-the-date-format-used-when-jaxb-marshals-xsddatetime
 
 Documentación
 =============
