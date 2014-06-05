@@ -1,4 +1,5 @@
 1.- Implementar un parser StAX que lea un documento XML como el mostrado abajo:
+
 <persona id="1">
 	<nombre>Juan</nombre>
 	<apellido>Pérez</apellido>
@@ -21,7 +22,7 @@ class Ejercicio6 {
 
 Tip:
 
-class Ejercicio5 {
+class Ejercicio6 {
 
 	main() {
 		List<Staff> staffs = StaffBinder.getStaffing("xml/staff.xml"); // Lee el documento XML
