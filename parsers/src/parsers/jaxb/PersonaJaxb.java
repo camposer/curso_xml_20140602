@@ -17,7 +17,9 @@ public class PersonaJaxb {
 
 			Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 			Coches coches = (Coches) jaxbUnmarshaller.unmarshal(file);
-			System.out.println(coches);
+			for (Coche c : coches.getCoches()) {
+				System.out.println(c);
+			}
 
 			// Marshalling
 			file = new File("xml/coches-1.xml");

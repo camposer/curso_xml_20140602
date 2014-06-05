@@ -1,0 +1,1 @@
+Implementar las clases necesarias para cargar los datos del archivo ordenadores.xml (ejercicio2) utilizando JAXB
