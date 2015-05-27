@@ -78,7 +78,7 @@ public abstract class OrdenadoresBinder2 {
 					persona.setApellido(elemento.getTextContent());
 				} else if (elemento.getNodeName().equals("fechaNacimiento")) {
 					String sfechaNacimiento = elemento.getTextContent();
-					persona.setFechaNacimiento(new SimpleDateFormat("yyyy-MM-dd").parse(sfechaNacimiento));
+					persona.setFechaNacimiento(new SimpleDateFormat("dd/MM/yyyy").parse(sfechaNacimiento));
 				} else if (elemento.getNodeName().equals("altura")) {
 					String saltura = elemento.getTextContent();
 					persona.setAltura(Integer.parseInt(saltura));
